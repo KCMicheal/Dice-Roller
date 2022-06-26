@@ -9,7 +9,9 @@ import android.widget.Toast
 import kotlin.random.Random as Random1
 
 class MainActivity : AppCompatActivity() {
+
     lateinit var diceImage: ImageView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
